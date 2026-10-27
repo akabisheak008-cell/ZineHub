@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZineHub Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1D1D25;
+            color: #F5F2EC;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #F5F2EC;
+        }
+
+        .movie-banner {
+            position: relative;
+            margin: 30px 20px 0;
+        }
+
+        .movie-banner img {
+            width: 100%;
+            height: 200px;
+            border-radius: 10px;
+            display: block;
+        }
+
+        .banner-text {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            transform: translateY(-90%);
+            color: #F5F2EC;
+            z-index: 1;
+            width: 105%;
+        }
+
+        .banner-text h1 {
+            font-size: 32px;
+            margin: 0 0 10px;
+        }
+
+        .banner-text p {
+            font-size: 16px;
+            margin: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+       <nav
+            style="display: flex;gap:30px;align-items: center; height: 60px; text-align: right; background-color: #0B0B0F; color: #F5F2EC;">
+            <div style="margin-left: 20px;">
+                <a href="Home.html">
+                    <h1>ZineHub</h1>
+                </a>
+            </div>
+            <div style="display: flex;gap: 15px;">
+                <a href="Movies.html">
+                    <h3>Movies</h3>
+                </a>
+                <a href="Cinemas.html">
+                    <h3>Cinemas</h3>
+                </a>
+                <a href="Offers.html">
+                    <h3>Offers</h3>
+                </a>
+            </div>
+            <div
+                style="display: flex;gap: 15px;text-align: right; margin-left: auto; margin-right: 20px;align-items: center;">
+                <button style="border-radius: 50%; padding: 6%;">
+                    <i class="fa-solid fa-magnifying-glass"
+                        style="font-size: 20px;background-color: #F5F2EC; color: #0B0B0F;"></i>
+                </button>
+                <button
+                    style="border-radius: 50px;width:120px; height:30px; display:flex; align-items: center; justify-content: center;">
+                    <i class="fa-solid fa-location-dot" style="padding: 0px 4px 0px 0px;"></i>Location</button>
+                <button style="border-radius: 50%;padding: 5% 5%;"><i class="fa-solid fa-a"></i></button>
+            </div>
+        </nav>
+    </div>
+    <!-- showing -->
+    <div style="background-color: #1D1D25;color: #F5F2EC;">
+        <h1 style="margin-left: 20px;">Movies In Chennai</h1>
+        <!-- Movies_line_1 -->
+        <div
+            style="display: flex;gap:50px;align-items: start;text-align:right;justify-content: space-evenly; margin-top: 30px;background-color: #1D1D25;color: #F5F2EC;">
+            <!-- movie 1 -->
+            <div>
+                <div>
+                    <img src="./Images/Baththa-small.jpg" alt="Baththa"
+                        style="height: 284px; width: 171px; border-radius: 10px;">
+                    <div style="display:flex;flex-direction:column;align-items: center;">
+                        <h2 style="text-align: center;">Dorothy</h2>
+                        <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                                style="color:#E9B44C;">8.9/10</i>
+                        </div>
+                        <button
+                            style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                    </div>
+                </div>
+            </div>
+            <!-- movie 2 -->
+            <div>
+                <img src="./Images/pathu-thala-small.jpg" alt="Pathu Thala"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 3 -->
+            <div>
+                <img src="./Images/jailer-2-.jpg" alt="Jailer"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 4 -->
+            <div>
+                <img src="./Images/meesaya murukku-.jpg" alt="Meesaya Murukku"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 5 -->
+            <div>
+                <img src="./Images/Spider_man.jpg" alt="Spider-Man"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 6 -->
+            <div>
+                <img src="./Images/Mandaadi_small.jpg" alt="Mandaadi"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- movies_line_2 -->
+        <div
+            style="display: flex;gap:50px;align-items: start;text-align:right;justify-content: space-evenly; margin-top: 30px;background-color: #1D1D25;color: #F5F2EC;">
+            <!-- movie 7 -->
+            <div>
+                <div>
+                    <img src="./Images/Anbil Avan_small.jpg" alt="Anbil Avan"
+                        style="height: 284px; width: 171px; border-radius: 10px;">
+                    <div style="display:flex;flex-direction:column; align-items: center;">
+                        <h2 style="text-align: center;">Anbil Avan</h2>
+                        <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                                style="color:#E9B44C;">8.9/10</i>
+                        </div>
+                        <button
+                            style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                    </div>
+                </div>
+            </div>
+            <!-- movie 8 -->
+            <div>
+                <img src="./Images/Dorothy_small.jpg" alt="Dorothy"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Dorothy</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 9 -->
+            <div>
+                <img src="./Images/Ranaballi_small.jpg" alt="Ranaballi"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Ranaballi</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 10 -->
+            <div>
+                <img src="./Images/Sigma_small.jpg" alt="Sigma"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Sigma</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 11 -->
+            <div>
+                <img src="./Images/Vinnaithaandi Varuvaayaa_small.jpg" alt="Vinnaithaandi Varuvaayaa"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Sigma</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+            <!-- movie 12 -->
+            <div>
+                <img src="./Images/Bethlehem Kudumba Unit_small.jpg" alt="Bethlehem Kudumba Unit"
+                    style="height: 284px; width: 171px; border-radius: 10px;">
+                <div style="display:flex;flex-direction:column;align-items: center;">
+                    <h2 style="text-align: center;">Sigma</h2>
+                    <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div>
+                    <button
+                        style="text-align: center;height: 30px; width: 60px;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Book</button>
+                </div>
+            </div>
+
+        </div>
+        <!-- Stream_poster -->
+        <div class="movie-banner">
+            <img src="./Images/old_movie_real.jpg" alt="Old Movie">
+
+            <div class="banner-text">
+                <h1 style="color: #f5e6c8;margin-left: 1%;margin-top: 1050px;margin-bottom: -40px; font-size: 80px;">
+                    ZineHub</h1>
+                <div
+                    style="display: flex;flex-direction: column;justify-content: center;align-items: center;margin-bottom: 50px;">
+                    <h1 style="color:#110b007e;font-size: 30px;">Stream</h1>
+                    <p style="font-size: 50px;color: #d4af37;">Endless Entertaiment Anytime.Anywhere!!!</p>
+                </div>
+            </div>
+        </div>
+        <!-- Coming soon -->
+        <div style="background-color: #1D1D25;color: #F5F2EC;">
+            <h1 style="margin-left: 20px;">Coming soon</h1>
+            <!-- Movies_line_1 -->
+            <div
+                style="display: flex;gap:50px;align-items: center;text-align:right; margin-left: 30px;margin-right: 40px; margin-top: 30px;background-color: #1D1D25;color: #F5F2EC;">
+                <!-- CMovie 1 -->
+                <div>
+                    <div>
+                        <img src="./Images/Baththa-small.jpg" alt="Baththa"
+                            style="height: 284px; width: 171px; border-radius: 10px;">
+                        <div style="display:flex;flex-direction:column;">
+                            <h2 style="text-align: center;">Baththa</h2>
+                            <!-- <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                                style="color:#E9B44C;">8.9/10</i>
+                        </div> -->
+                            <button
+                                style="text-align: center;height: auto; width: auto;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;">Releases
+                                in 12 days</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- CMovie 2 -->
+                <div>
+                    <img src="./Images/pathu-thala-small.jpg" alt="Pathu Thala"
+                        style="height: 284px; width: 171px; border-radius: 10px;">
+                    <div style="display:flex;flex-direction:column;">
+                        <h2 style="text-align: center;">Pathu Thala</h2>
+                        <!-- <div style=" text-align: center; font-size: 15px;"><i class="fa-solid fa-star"
+                            style="color:#E9B44C;">8.9/10</i>
+                    </div> -->
+                        <button
+                            style="text-align: center;height: auto; width: auto;border-radius: 5px; background-color: #0B0B0F; color: #F5F2EC;border: none;margin-top: 10px;object-fit: cover;">Releases
+                            in 19 days</button>
+                    </div>
+                </div>
+            </div>
+            <!-- footer -->
+            <div style="background-color: #0B0B0F; color: #F5F2EC; text-align: center;margin-top: 30px; padding: 20px;">
+                <p>&copy; 2026 Movie Streaming. All rights reserved.</p>
+
+
+
+</body>
+
+</html>
